@@ -708,10 +708,10 @@ footer a {
 
 }
 
-@media (max-width: 850px){
+@media (max-width: 500px){
 
   p {
-    font-size: 0.7rem;/*changed*/
+    font-size: 0.73rem;/*changed*/
     color: #5a5a5a;
     font-weight: 300;
     line-height: 25px;
