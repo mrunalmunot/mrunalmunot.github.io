@@ -96,7 +96,7 @@ p {
 
 .cd-slider-nav ul li {
   display: inline-block;
-  margin: 80px 40px;
+  margin: 20px 40px;
 }
 
 .cd-slider-nav ul li a {
@@ -122,7 +122,7 @@ p {
   margin-bottom: 15px;
   display: block;
   width: 80px;
-  height: 80px;
+  height: auto;
   line-height: 80px;
   border-radius: 50%;
   text-align: center;
@@ -304,7 +304,9 @@ p {
 }
 
 
-
+.txtshadow{
+  color: #121212; text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(255, 255, 255, 0.3);
+}
 /*
 =======================
 ----- THIRD SLIDE -----
@@ -632,7 +634,7 @@ footer a {
   .cd-slider-nav {
     background-color: #ffbb05;
     width: 100%;
-    height: 80px;
+    height: auto;
     line-height: 80px;
     margin: 0 auto;
     text-align: center!important;
@@ -713,6 +715,7 @@ footer a {
 ----------- LIGHT BOX STYLE ------------
 ========================================
 */
+
 
 /* Preload images */
 body:after {
