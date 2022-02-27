@@ -3,3 +3,4 @@
 - 🌱 I’m currently learning Computer Engineering.
 - 💞️ I’m looking to collaborate on project related to python.
 - 📫 How to reach me https://www.linkedin.com/in/mrunalmunot/
+- 📝 Visit blog https://mrunalmunot.wordpress.com/
