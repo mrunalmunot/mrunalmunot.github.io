@@ -193,11 +193,12 @@ p {
 }
 
 .heading span {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-  color: #ffbb05;
+  color: #05ff2b;
   font-weight: 300;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.5rem;
 }
 
 .first-content h4 {
@@ -707,6 +708,124 @@ footer a {
 
 }
 
+@media (max-width: 850px){
+
+  p {
+    font-size: 0.7rem;/*changed*/
+    color: #5a5a5a;
+    font-weight: 300;
+    line-height: 25px;
+  }  
+
+  .fnts{
+    font-size: 0.7rem;/*changed*/
+  }
+  .cd-slider-nav ul li h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+    display: none;
+  }
+
+  .cd-slider-nav .image-icon img {
+    width: 25px;
+  }
+
+  .cd-slider-nav ul .selected img {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+  }
+
+  .cd-slider-nav .image-icon {
+    width: 0px;
+    height: 0px;
+    line-height: 40px;
+    margin: 0 auto;
+  }
+
+  .cd-slider-nav {
+    background-color: #ffbb05;
+    width: 100%;
+    height: auto;/*changed*/
+    line-height: 80px;
+    margin: 0 auto;
+    text-align: center!important;
+  }
+
+  .cd-slider-nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center!important;
+  }
+
+  .cd-slider-nav ul li {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  .heading h1 {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0px;
+  }
+
+  .heading span {
+    font-size: 13px;
+    letter-spacing: px;
+  }
+
+  .content {
+    margin-bottom: 100px;
+    margin-top: -100px;
+    background-color: #fff;
+    border-top: 15px solid #ffbb05;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .first-content h4 {
+    margin-left: 15px;
+    margin-right: 15px; 
+  }
+
+  .first-content p {
+    margin: 0px 30px;
+  }
+
+  .second-slide .left-image {
+    padding-right: 15px!important;
+  }
+
+  .second-slide .right-image {
+    padding-left: 15px!important;
+  }
+
+  .second-slide .right-about-text {
+    text-align: left;
+    margin-left: 15px;
+    margin-left: 30px;
+  }
+
+  .second-slide .left-about-text {
+    text-align: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .fivth-content .left-info .social-icons {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+}
 
 /*
 ========================================
