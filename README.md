@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @mrunalmunot
+- 👋 Hi, I’m @mrunal-munot
 - 👀 I’m interested in the new technologies..
 - 🌱 I’m currently learning Computer Engineering.
 - 💞️ I’m looking to collaborate on project related to python.
